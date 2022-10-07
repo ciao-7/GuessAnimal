@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shengxiao"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView_getname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A52A2A"
+        android:text="显示得到的用户名"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_getbirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#FFD700"
+
+        android:text="显示获取到的出生日期"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView_shengxiao"
+        android:layout_width="209dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView_shengxiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示生肖特点"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="5dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
